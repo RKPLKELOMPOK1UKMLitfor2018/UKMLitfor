@@ -1,5 +1,5 @@
 <?php
-require_once('header.php');
+require_once __DIR__ .'/../header.php';
 ?>
     <!--================Home Banner Area =================-->
     <section class="banner_area">
@@ -452,5 +452,5 @@ require_once('header.php');
     </div>
     <!--================ End Testimonial Area =================-->
 <?php
-require_once('footer.php');
+require_once __DIR__ .'/../footer.php';
 ?>
