@@ -1,7 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Event extends CI_Controller {
+class Search extends CI_Controller {
 
 	/**
 	 * Index Page for this controller.
@@ -18,7 +18,31 @@ class Event extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index(){
+	public function __construct()
+	{
+		parent::__construct();
+		$this->load->helper("url");
+		$this->load->model('search_model');
+	}
+
+	public function index()
+	{
 		$this->load->view('main/main');
+	}
+
+	public function hasil()
+	{
+		$keyword    =   $this->input->get('keyword');
+
+		if (empty($keyword)) {			
+			$error['error'] = "Type your keyword";
+			$this->load->view('main/main', $error);
+		}
+		else {
+			$data['results']    =   $this->search_model->cariData($keyword);
+			//$data2['cari'] = $this->search_model->cariData();
+			$this->load->view('main/view_result', $data);
+		}
+		
 	}
 }
