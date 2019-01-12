@@ -10,13 +10,11 @@ require_once __DIR__ .'/../header.php';
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="banner_content text-center">
-                            <h2>Contact Us</h2>
-                            <p>In the history of modern astronomy, there is probably no one greater leap forward than
-                                the
-                                building and launch of the space telescope known as the Hubble.</p>
+                            <h2>Hubungi Kami</h2>
+                            <p>Jika ada yang ingin disampaikan silahkan hubungi kami.</p>
                             <div class="page_link">
-                                <a href="index.html">Home</a>
-                                <a href="contact.html">Contact</a>
+                                <a href="<?php echo base_url(); ?>">Home</a>
+                                <a href="<?php echo base_url(); ?>/home/contact">Contact</a>
                             </div>
                         </div>
                     </div>
@@ -29,26 +27,24 @@ require_once __DIR__ .'/../header.php';
     <!--================Contact Area =================-->
     <section class="contact_area section_gap">
         <div class="container">
-            <div id="mapBox" class="mapBox" data-lat="40.701083" data-lon="-74.1522848" data-zoom="13" data-info="PO Box CT16122 Collins Street West, Victoria 8007, Australia."
-                data-mlat="40.701083" data-mlon="-74.1522848">
-            </div>
+           
             <div class="row">
                 <div class="col-lg-3">
                     <div class="contact_info">
                         <div class="info_item">
                             <i class="lnr lnr-home"></i>
-                            <h6>California, United States</h6>
-                            <p>Santa monica bullevard</p>
+                            <h6>Banda Aceh, Indonesia</h6>
+                            <p>Universitas Syiah Kuala, Darussalam</p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-phone-handset"></i>
-                            <h6><a href="#">00 (440) 9865 562</a></h6>
-                            <p>Mon to Fri 9am to 6 pm</p>
+                            <h6><a href="#">XX XXXX XXXX XX</a></h6>
+                            <p>Senin s/d Jum'at 08:00 s/d 16:00</p>
                         </div>
                         <div class="info_item">
                             <i class="lnr lnr-envelope"></i>
-                            <h6><a href="#">support@colorlib.com</a></h6>
-                            <p>Send us your query anytime!</p>
+                            <h6><a href="#">ukmliterasi@unsyiah.ac.id</a></h6>
+                            <p>Email kami kapan pun anda mau.</p>
                         </div>
                     </div>
                 </div>

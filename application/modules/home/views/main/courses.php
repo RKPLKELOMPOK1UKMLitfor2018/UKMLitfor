@@ -5,7 +5,7 @@ require_once __DIR__ .'/../header.php';
     <!--================Home Banner Area =================-->
     <section class="banner_area">
         <div class="banner_inner d-flex align-items-center">
-            <div class="overlay"></div>
+            <div class=""></div>
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
