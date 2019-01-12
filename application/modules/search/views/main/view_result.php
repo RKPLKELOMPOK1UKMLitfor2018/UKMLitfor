@@ -42,6 +42,7 @@ require_once __DIR__ .'/../header.php';
 			    ?>
 			</table>
 			<br><br><center><a href="<?php echo site_url('search/');?>" class="btn btn-success">New Search</a></center>
+			<br><center><a href="<?php echo site_url('log/');?>" class="btn btn-default">See Others</a></center>
 			    <?php
 			}
 			else
