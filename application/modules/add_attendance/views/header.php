@@ -15,8 +15,45 @@
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/vendors/lightbox/simpleLightbox.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/vendors/nice-select/css/nice-select.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/vendors/animate-css/animate.css">
+	
 	<!-- main css -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/style.css">
+	<style>
+		/* Dropdown content (hidden by default) */
+		.dropdown-content {
+  			display: none;
+  			position: absolute;
+  			background-color: #f9f9f9;
+  			min-width: 160px;
+  			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  			z-index: 1;
+			height:100px;
+		}
+
+		/* Links inside the dropdown */
+			.dropdown-content a {
+  				float: none;
+  				color: black;
+  				padding-left: 20px;
+				padding-top :10px;
+				padding-bottom :5px;
+  				text-decoration: none;
+  				display: block;
+  				text-align: left;
+				 margin-top: -50px;
+				 margin-bottom: 50px;
+			}
+
+		/* Add a grey background color to dropdown links on hover */
+			.dropdown-content a:hover {
+  				background-color: #ddd;
+			}	
+
+		/* Show the dropdown menu on hover */
+			.dropdown:hover .dropdown-content {
+  				display: block;
+			}
+	</style>
 </head>
 
 <body>
@@ -73,7 +110,16 @@
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Beranda</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/about">Profil</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/courses">Kegiatan</a></li>
+							
+									<li class="nav-item dropdown">
+          								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Kegiatan
+       									<i class="fa fa-caret-down"></i>
+										<ul class="dropdown-content dropdown-menu">					
+											<li><a href="<?php echo site_url(); ?>/home/courses">Timeline</a></li>
+            								<li><a href="<?php echo site_url(); ?>/add_attendance">Get Ticket</a></li>											
+          								</ul>
+        							</li>
+									
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/courseDetails">Kerjasama</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/elements">Penghargaan</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/blog">Oprec</a></li>
