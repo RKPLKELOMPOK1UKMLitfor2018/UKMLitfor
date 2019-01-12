@@ -38,8 +38,7 @@
 			        }
 			    ?>
 			</table>
-			<br><br><center><a href="<?php echo site_url('search/');?>" class="btn btn-success">New Search</a></center>
-			<br><br><center><a href="<?php echo site_url('search/');?>" class="btn btn-danger">Add New User</a></center>
+			<br><br><center><a href="<?php echo site_url('add_attendance/');?>" class="btn btn-success">Add New Participant</a></center>
 			    <?php
 			}
 			?>

@@ -20,8 +20,10 @@
 					<input type="text" class="form-control" id="email" name="email" placeholder="email">
 				</div>
 				<input class="btn btn-primary pull-right" type="submit" value="Add">
+				<a href="<?php echo site_url('search/');?>" class="btn btn-success pull-left">I Have Filled The Form</a>
 			<?php echo form_close(); ?>
 		</div>
+		
 		<br><br><br><br><br>
 		</div>
 	</body>
