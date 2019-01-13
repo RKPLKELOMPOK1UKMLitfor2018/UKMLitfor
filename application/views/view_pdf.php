@@ -66,6 +66,7 @@ class PDF_AutoPrint extends PDF_JavaScript
                 foreach ($data as $key) {
                         $this->setFont('Times','B',24);
                         $this->setFillColor(255,255,255);
+						$this->Image('asset/img/1.png', 30, 8, 35, 35, 'PNG', '', 0, 1, 'C');
                         $this->setY(70);	
                         $this->cell(0,0,$key->name,0,0,'C');
                 }
