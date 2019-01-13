@@ -109,21 +109,21 @@
 					<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 						<ul class="nav navbar-nav menu_nav ml-auto">
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Beranda</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/about">Profil</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/about">Profil</a></li>
 							
 									<li class="nav-item dropdown">
           								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Kegiatan
        									<i class="fa fa-caret-down"></i>
 										<ul class="dropdown-content dropdown-menu">					
-											<li><a href="<?php echo site_url(); ?>/home/courses">Timeline</a></li>
-            								<li><a href="<?php echo site_url(); ?>/add_attendance">Get Ticket</a></li>											
+											<li><a href="<?php echo site_url(); ?>home/courses">Timeline</a></li>
+            								<li><a href="<?php echo site_url(); ?>add_attendance">Get Ticket</a></li>											
           								</ul>
         							</li>
 									
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/courseDetails">Kerjasama</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/elements">Penghargaan</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/blog">Oprec</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>/home/contact">Kontak</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/courseDetails">Kerjasama</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/elements">Penghargaan</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/blog">Oprec</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/contact">Kontak</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
 									<i class="lnr lnr-magnifier"></i>
