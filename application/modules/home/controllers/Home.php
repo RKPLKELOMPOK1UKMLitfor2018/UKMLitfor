@@ -24,8 +24,8 @@ class Home extends CI_Controller {
 	public function about(){
 		$this->load->view('main/about-us');
 	}
-	public function courses(){
-		$this->load->view('main/courses');
+	public function timeline(){
+		$this->load->view('main/timeline');
 	}
 	public function courseDetails(){
 		$this->load->view('main/course-details');
@@ -42,4 +42,6 @@ class Home extends CI_Controller {
 	public function contact(){
 		$this->load->view('main/contact');
 	}
+
+
 }
