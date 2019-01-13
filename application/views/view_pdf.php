@@ -80,24 +80,21 @@ class PDF_AutoPrint extends PDF_JavaScript
                         $this->setFillColor(255,255,255);
                         $this->setY(80);
                         $this->cell(0,0,$key->afiliasi,0,0,'C');
-                        $this->setY(143);
-                        $this->cell(0,0,'VISIT',0,0,'C');
-                        $this->setY(153);
-                        $this->cell(0,0,$key->name,0,0,'C');
-                        $this->setY(163);
-                        $this->cell(0,0,$key->afiliasi,0,0,'C');
+                        $this->setY(90);
+                        $this->cell(0,0,$key->email,0,0,'C');
+                        $this->setY(100);
+                        $this->cell(0,0,$key->time_check_in,0,0,'C');
+                        $this->setY(165);
+                        $this->cell(0,0,'Event UKMLitfor 2019',0,0,'C');
+                        $this->setY(175);
+                        $this->cell(0,0,'Located in Unsyiah Library',0,0,'C');
                         $this->setY(185);
-                        $this->cell(0,0,'TOUR',0,0,'C');
-                        $this->setY(195);
-                        $this->cell(0,0,$key->name,0,0,'C');
+                        $this->cell(0,0,'Banda Aceh',0,0,'C');
                         $this->setY(205);
-                        $this->cell(0,0,$key->afiliasi,0,0,'C');
-                        $this->setY(235);
-                        $this->cell(0,0,'DOOR PRIZE',0,0,'C');
-                        $this->setY(245);
-                        $this->cell(0,0,$key->name,0,0,'C');
-                        $this->setY(255);
-                        $this->cell(0,0,$key->afiliasi,0,0,'C');
+                        $this->cell(0,0,'DOOR PRIZE Number :',0,0,'C');
+                        $this->setY(215);
+                        $this->cell(0,0,$key->id,0,0,'C');
+         
                         //$this->cell(50,10,$key->kelamin,1,1,'L',1);
                 }
     }            
