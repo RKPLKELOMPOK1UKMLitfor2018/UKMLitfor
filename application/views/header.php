@@ -9,6 +9,7 @@
 	<title>UKM Literasi Informasi</title>
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/bootstrap.css">
+	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/timeline.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/vendors/linericon/style.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php echo base_url(); ?>asset/vendors/owl-carousel/owl.carousel.min.css">
@@ -115,7 +116,7 @@
           								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Kegiatan
        									<i class="fa fa-caret-down"></i>
 										<ul class="dropdown-content dropdown-menu">					
-											<li><a href="<?php echo site_url(); ?>home/courses">Timeline</a></li>
+											<li><a href="<?php echo site_url(); ?>home/timeline">Timeline</a></li>
             								<li><a href="<?php echo site_url(); ?>add_attendance">Get Ticket</a></li>											
           								</ul>
         							</li>
