@@ -27,17 +27,17 @@ class Home extends CI_Controller {
 	public function timeline(){
 		$this->load->view('main/timeline');
 	}
-	public function courseDetails(){
-		$this->load->view('main/course-details');
+	public function kerjasama(){
+		$this->load->view('main/kerjasama');
 	}
-	public function elements(){
-		$this->load->view('main/elements');
+	public function penghargaan(){
+		$this->load->view('main/penghargaan');
 	}
 	public function blog(){
 		$this->load->view('main/blog');
 	}
-	public function singleBlog(){
-		$this->load->view('main/single-blog');
+	public function arsip(){
+		$this->load->view('main/arsip');
 	}
 	public function contact(){
 		$this->load->view('main/contact');

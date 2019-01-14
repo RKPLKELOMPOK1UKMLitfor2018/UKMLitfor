@@ -121,9 +121,10 @@
           								</ul>
         							</li>
 									
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/courseDetails">Kerjasama</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/elements">Penghargaan</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/kerjasama">Kerjasama</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/penghargaan">Penghargaan</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/blog">Oprec</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/arsip">Arsip</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/contact">Kontak</a></li>
 							<li class="nav-item">
 								<a href="#" class="nav-link search" id="search">
