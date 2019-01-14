@@ -122,12 +122,12 @@ require_once __DIR__ .'/../header.php';
                     <article class="row blog_item">
                         <div class="col-md-3">
                             <div class="blog_info text-right">
-                                <div class="post_tag">
+                                <!-- <div class="post_tag">
                                     <a href="#">Food,</a>
                                     <a class="active" href="#">Technology,</a>
                                     <a href="#">Politics,</a>
                                     <a href="#">Lifestyle</a>
-                                </div>
+                                </div> -->
                                 <ul class="blog_meta list">
                                     <li><a href="#">Penulis<i class="lnr lnr-user"></i></a></li>
                                     <li><a href="#">12 Dec, 2017<i class="lnr lnr-calendar-full"></i></a></li>

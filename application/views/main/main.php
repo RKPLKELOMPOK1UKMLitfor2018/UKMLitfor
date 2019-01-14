@@ -107,7 +107,7 @@ require_once __DIR__ .'/../header.php';
 										<div class="event_details">
 											<p>5 Maret, 2019</p>
 											<h4>
-												<a href="#">Beasiswa LPDP</a>
+												<a href="#">Beasiswa LPDP menjadi target Mahasiswa Unsyiah</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore dolor
 												sit amet consec tetur adipisicing elit sed.</p>
@@ -132,7 +132,7 @@ require_once __DIR__ .'/../header.php';
 										<div class="event_details">
 											<p>5 Maret, 2019</p>
 											<h4>
-												<a href="#">Beasiswa LPDP</a>
+												<a href="#">Menulis Kreatif Menjadi Sarana Pilihan Anak Muda</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore dolor
 												sit amet consec tetur adipisicing elit sed.</p>
@@ -257,9 +257,9 @@ require_once __DIR__ .'/../header.php';
 									</div>
 									<div class="col-lg-5 col-md-7">
 										<div class="event_details">
-											<p>5 Maret, 2019</p>
+											<p>15 Maret, 2019</p>
 											<h4>
-												<a href="#">Beasiswa LPDP</a>
+												<a href="#">Relax & Easy</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore dolor
 												sit amet consec tetur adipisicing elit sed.</p>
@@ -284,7 +284,7 @@ require_once __DIR__ .'/../header.php';
 										<div class="event_details">
 											<p>5 Maret, 2019</p>
 											<h4>
-												<a href="#">Beasiswa LPDP</a>
+												<a href="#">Librisiyana</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore dolor
 												sit amet consec tetur adipisicing elit sed.</p>

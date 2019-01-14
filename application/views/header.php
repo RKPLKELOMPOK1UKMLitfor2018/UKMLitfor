@@ -89,7 +89,7 @@
 			<div class="search_input" id="search_input_box">
 				<div class="container">
 					<form class="d-flex justify-content-between" method="" action="">
-						<input type="text" class="form-control" id="search_input" placeholder="Search Here">
+						<input type="text" class="form-control" id="search_input" placeholder="Cari Disini">
 						<button type="submit" class="btn"></button>
 						<span class="lnr lnr-cross" id="close_search" title="Close Search"></span>
 					</form>
@@ -118,7 +118,7 @@
        									<i class="fa fa-caret-down"></i></a>
 										<ul class="dropdown-menu">
 											<li  class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/timeline">Timeline</a></li>
-            								<li  class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>add_attendance">Get Ticket</a></li>
+            								<li  class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>add_attendance">Cetak Tiket</a></li>
           								</ul>
         							</li>
 

@@ -32,24 +32,24 @@ require_once __DIR__ .'/../header.php';
                         </div>
                         <div class="col-lg-3  col-md-3">
                             <div class="blog_info text-right">
-                                <div class="post_tag">
+                                <!-- <div class="post_tag">
                                     <a href="#">Food,</a>
                                     <a class="active" href="#">Technology,</a>
                                     <a href="#">Politics,</a>
                                     <a href="#">Lifestyle</a>
-                                </div>
+                                </div> -->
                                 <ul class="blog_meta list">
                                     <li><a href="#">Penulis<i class="lnr lnr-user"></i></a></li>
                                     <li><a href="#">25 Februari 2019<i class="lnr lnr-calendar-full"></i></a></li>
                                     <li><a href="#"></a>1.2M Views<i class="lnr lnr-eye"></i></a></li>
                                     <li><a href="#">06 Comments<i class="lnr lnr-bubble"></i></a></li>
                                 </ul>
-                                <ul class="social-links">
+                                <!-- <ul class="social-links">
                                     <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                     <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                     <li><a href="#"><i class="fa fa-github"></i></a></li>
                                     <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
                         <div class="col-lg-9 col-md-9 blog_details">
@@ -115,17 +115,17 @@ require_once __DIR__ .'/../header.php';
                                     <a href="#"><span class="lnr text-white lnr-arrow-left"></span></a>
                                 </div>
                                 <div class="detials">
-                                    <p>Prev Post</p>
+                                    <p>Sebelumnya</p>
                                     <a href="#">
-                                        <h4>Space The Final Frontier</h4>
+                                        <h4>Menulis Artikel Kreatif</h4>
                                     </a>
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-12 nav-right flex-row d-flex justify-content-end align-items-center">
                                 <div class="detials">
-                                    <p>Next Post</p>
+                                    <p>Berikutnya</p>
                                     <a href="#">
-                                        <h4>Telescopes 101</h4>
+                                        <h4>Duta Baca Unsyiah 2019 Terungkap...</h4>
                                     </a>
                                 </div>
                                 <div class="arrow">
@@ -264,7 +264,7 @@ require_once __DIR__ .'/../header.php';
                 <div class="blog_right_sidebar">
                     <aside class="single_sidebar_widget search_widget">
                         <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Search Posts">
+                            <input type="text" class="form-control" placeholder="Cari Artikel">
                             <span class="input-group-btn">
                                 <button class="btn btn-default" type="button"><i class="lnr lnr-magnifier"></i></button>
                             </span>
