@@ -232,11 +232,11 @@ button:focus {
 .comments-area .btn-reply:hover,
 .blog_btn:hover,
 .footer-area .footer-bottom .footer-social a:hover {
-    background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -webkit-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -moz-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -ms-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -o-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: linear-gradient(90deg, #FFCF00 0%, #977600 100%);
 }
 
 .gradient-bg2,
@@ -261,11 +261,11 @@ button:focus {
 
 .gradient-color,
 .blog_details h2:hover {
-    background: -webkit-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -moz-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -ms-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: -o-linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
-    background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+    background: -webkit-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -moz-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -ms-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: -o-linear-gradient(90deg, #FFCF00 0%, #977600 100%);
+    background: linear-gradient(90deg, #FFCF00 0%, #977600 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -280,11 +280,11 @@ button:focus {
 
 .primary-btn {
     display: inline-block;
-    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -webkit-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -moz-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -ms-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -o-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
     background-size: 200% auto;
     padding: 0px 38px;
     color: #fff;
@@ -373,7 +373,7 @@ button:focus {
 
 .header_area .navbar .nav .nav-item:hover .nav-link,
 .header_area .navbar .nav .nav-item.active .nav-link {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .header_area .navbar .nav .nav-item.submenu {
@@ -444,7 +444,7 @@ button:focus {
 }
 
 .header_area .navbar .nav .nav-item.submenu ul .nav-item:hover .nav-link {
-    background: #00aee0;
+    background: #FFCF00;
     color: #fff;
 }
 
@@ -720,11 +720,11 @@ button:focus {
 }
 
 .home_banner_area .search_course_wrap .search_course_btn {
-    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -webkit-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -moz-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -ms-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -o-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
     background-size: 200% auto;
     border-radius: 0;
     color: #fff;
@@ -811,7 +811,7 @@ button:focus {
 
 .banner_area {
     position: relative;
-    background: url(../img/ukm/.jpg) no-repeat center center;
+    background: url(../img/ukm/banner.jpg) no-repeat center center;
     z-index: 1;
     min-height: 392px;
     padding-top: 0 !important;
@@ -1130,7 +1130,7 @@ button:focus {
 }
 
 .single_course:hover h4 a {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 
@@ -1185,7 +1185,7 @@ button:focus {
 }
 
 .course_details_left .course_list li .primary-btn:hover {
-    background: #00aee0;
+    background: #FFCF00;
     color: #ffffff;
     box-shadow: 0px 10px 30px rgba(0, 175, 224, 0.3);
 }
@@ -1254,7 +1254,7 @@ button:focus {
 
 .right-contents .avg-review span {
     font-size: 18px;
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 @media (max-width: 991px) {
@@ -1653,7 +1653,7 @@ button:focus {
 }
 
 .single_event:hover h4 a {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 
@@ -1788,7 +1788,7 @@ button:focus {
 }
 
 .tags .tag_btn:before {
-    background: #00aee0;
+    background: #FFCF00;
 }
 
 .tags .tag_btn+.tag_btn {
@@ -1880,7 +1880,7 @@ button:focus {
 }
 
 .blog_info .post_tag a.active {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .blog_info .blog_meta li a {
@@ -1901,7 +1901,7 @@ button:focus {
 }
 
 .blog_info .blog_meta li a:hover {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .blog_post img {
@@ -2029,7 +2029,7 @@ button:focus {
 }
 
 .blog_right_sidebar .author_widget .social_icon a:hover {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body {
@@ -2047,7 +2047,7 @@ button:focus {
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body h3:hover {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .blog_right_sidebar .popular_post_widget .post_item .media-body p {
@@ -2081,11 +2081,11 @@ button:focus {
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover {
-    border-color: #00aee0;
+    border-color: #FFCF00;
 }
 
 .blog_right_sidebar .post_category_widget .cat-list li:hover a {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .blog_right_sidebar .newsletter_widget {
@@ -2575,7 +2575,7 @@ button:focus {
     top: 0;
     font-size: 20px;
     line-height: 24px;
-    color: #00aee0;
+    color: #FFCF00;
     font-weight: 600;
 }
 
@@ -2680,7 +2680,7 @@ button:focus {
 .modal-message .modal-dialog .modal-content .modal-header h2 {
     display: block;
     text-align: center;
-    color: #00aee0;
+    color: #FFCF00;
     padding-bottom: 10px;
     font-family: "Crimson Text", serif;
 }
@@ -2724,30 +2724,30 @@ button:focus {
 
 .sample-text-area p b {
     font-weight: bold;
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .sample-text-area p i {
-    color: #00aee0;
+    color: #FFCF00;
     font-style: italic;
 }
 
 .sample-text-area p sup {
-    color: #00aee0;
+    color: #FFCF00;
     font-style: italic;
 }
 
 .sample-text-area p sub {
-    color: #00aee0;
+    color: #FFCF00;
     font-style: italic;
 }
 
 .sample-text-area p del {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .sample-text-area p u {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 
@@ -2893,12 +2893,12 @@ button:focus {
 
 .link-border {
     background: transparent;
-    border: 1px solid #00aee0;
-    color: #00aee0;
+    border: 1px solid #FFCF00;
+    color: #FFCF00;
 }
 
 .link-border:before {
-    background: #00aee0;
+    background: #FFCF00;
 }
 
 .radius {
@@ -4223,7 +4223,7 @@ h6 {
 }
 
 .white_bg_btn:hover {
-    background: #00aee0;
+    background: #FFCF00;
     color: #fff;
 }
 
@@ -4240,7 +4240,7 @@ h6 {
 }
 
 .blog_btn:hover {
-    border-color: #00aee0;
+    border-color: #FFCF00;
     color: #fff;
 }
 
@@ -4321,7 +4321,7 @@ h6 {
         display: block;
         width: 25px;
         height: 3px;
-        background: #00aee0;
+        background: #FFCF00;
         margin: auto;
         margin-bottom: 4px;
         transition: all 400ms linear;
@@ -4649,11 +4649,11 @@ h6 {
 }
 
 .footer-area .single-footer-widget .click-btn {
-    background: -webkit-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -moz-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -ms-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: -o-linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
-    background: linear-gradient(to right, #00aee0 0%, #00fedc 51%, #00aee0 100%);
+    background: -webkit-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -moz-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -ms-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: -o-linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
+    background: linear-gradient(to right, #FFCF00 0%, #977600 51%, #FFCF00 100%);
     background-size: 200% auto;
     color: #ffffff;
     border-radius: 0;
@@ -4696,7 +4696,7 @@ h6 {
 }
 
 .footer-area .footer-bottom a {
-    color: #00aee0;
+    color: #FFCF00;
 }
 
 .footer-area .footer-bottom .footer-social {
