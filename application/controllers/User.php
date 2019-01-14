@@ -27,30 +27,9 @@ class User extends BaseController
      */
     public function index()
     {
-        $this->global['pageTitle'] = 'Dashboard';
-        $this->loadViews("dashboard", $this->global, NULL , NULL);
+        $this->global['pageTitle'] = 'Add Feed';
+        $this->loadViews("index.php/addFeed", $this->global, NULL , NULL);
     }
-
-    public function tambah(){
-        $data = array();
-        $this->load->model('Post_model');
-        $data['isi'] = $this->Post_model->view();
-        $this->global['pageTitle'] = 'Add Posting';
-        $this->loadViews("addPosting", $this->global, NULL , NULL);
-        if($this->input->post('submit')){ // Jika user menekan tombol Submit (Simpan) pada form
-          // lakukan upload file dengan memanggil function upload yang ada di Post_model.php
-          $upload = $this->Post_model->upload();
-          
-          if($upload['result'] == "success"){ // Jika proses upload sukses
-             // Panggil function save yang ada di Post_model.php untuk menyimpan data ke database
-            $this->Post_model->save($upload);
-            
-            redirect('tambah'); // Redirect kembali ke halaman awal / halaman view data
-          }else{ // Jika proses upload gagal
-            $data['message'] = $upload['error']; // Ambil pesan error uploadnya untuk dikirim ke file form dan ditampilkan
-          }
-        }
-      }
 
     /**
      * This function is used to load the user list
@@ -77,6 +56,31 @@ class User extends BaseController
             $this->global['pageTitle'] = 'User Listing';
 
             $this->loadViews("users", $this->global, $data, NULL);
+        }
+    }
+	
+	function participantListing()
+    {
+        if($this->isAdmin() == TRUE)
+        {
+            $this->loadThis();
+        }
+        else
+        {
+            $searchText = $this->security->xss_clean($this->input->post('searchText'));
+            $data['searchText'] = $searchText;
+
+            $this->load->library('pagination');
+
+            $count = $this->user_model->participantListingCount($searchText);
+
+			       $returns = $this->paginationCompress ( "participantListing/", $count, 10 );
+
+            $data['participantRecords'] = $this->user_model->participantListing($searchText, $returns["page"], $returns["segment"]);
+
+            $this->global['pageTitle'] = 'Participant Listing';
+
+            $this->loadViews("participant", $this->global, $data, NULL);
         }
     }
 
@@ -185,7 +189,7 @@ class User extends BaseController
         {
             if($userId == null)
             {
-                redirect('userListing');
+                redirect('index.php/userListing');
             }
 
             $data['roles'] = $this->user_model->getUserRoles();
@@ -193,7 +197,7 @@ class User extends BaseController
 
             $this->global['pageTitle'] = 'Edit User';
 
-            $this->loadViews("editOld", $this->global, $data, NULL);
+            $this->loadViews("index.php/editOld", $this->global, $data, NULL);
         }
     }
 
@@ -354,7 +358,7 @@ class User extends BaseController
         $this->load->library('form_validation');
 
         $this->form_validation->set_rules('fname','Full Name','trim|required|max_length[128]');
-        $this->form_validation->set_rules('mobile','Mobile Number','required|min_length[10]');
+        $this->form_validation->set_rules('mobile','Mobile Number','required|min_length[9]');
 
         if($this->form_validation->run() == FALSE)
         {

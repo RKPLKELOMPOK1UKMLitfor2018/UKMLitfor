@@ -10,7 +10,7 @@
       <main role="main" class="container">
         <div class="starter-template">
               <br /><br />
-          <?php echo form_open_multipart('/User/uploadFile'); ?>
+          <?php echo form_open_multipart('user/uploadFile'); ?>
 
               <input type="file" name="userfile" size="20" class=" mr-sm-2" />
               <br /><br />

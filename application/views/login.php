@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Admin System Log in</title>
+    <title>Log in Sistem Admin</title>
     <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
     <link href="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <link href="<?php echo base_url(); ?>assets/bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -16,11 +16,20 @@
     <![endif]-->
     <!-- Google Font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
+    <style>
+      #grad1 {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255,0,0,1)); /* Standard syntax (must be last) */
+      }
+    </style>
   </head>
+
   <body class="hold-transition login-page">
+
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>Admin System</b><br>UKM LitFor Unsyiah</a>
+        <a href="#"><b>Sistem Admin</b><br>UKM Literasi Informasi Unsyiah</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign In</p>
@@ -50,7 +59,7 @@
                 <?php echo $success; ?>
             </div>
         <?php } ?>
-        <form action="<?php echo base_url(); ?>loginMe" method="post">
+        <form action="<?php echo base_url(); ?>index.php/loginMe" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email" name="email" required />
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -73,10 +82,15 @@
           </div>
         </form>
 
-        <a href="<?php echo base_url() ?>forgotPassword">Forgot Password</a><br>
+        <a href="<?php echo base_url() ?>index.php/forgotPassword">Forgot Password</a><br>
 
       </div><!-- /.login-box-body -->
+	  <p><br>Test <br> email: admin@example.com <br> password: admin</p>
+	  <form action="<?php echo base_url() ?>">
+    <input type="submit" value="Back To Home" />
+</form>
     </div><!-- /.login-box -->
+
 
     <script src="<?php echo base_url(); ?>assets/bower_components/jquery/dist/jquery.min.js"></script>
     <script src="<?php echo base_url(); ?>assets/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>

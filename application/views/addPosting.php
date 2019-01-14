@@ -7,7 +7,9 @@
       </h1>
     </section>
     <section class="content">
-    <form method="post" action="<?php echo base_url('post/aksi_upload'); ?>" enctype="multipart/form-data">
+    <!-- Menampilkan Error jika validasi tidak valid -->
+<div style="color: red;"><?php echo (isset($message))? $message : ""; ?></div>
+    <form method="post" action="<?php echo base_url('index.php/upload/simpan'); ?>" enctype="multipart/form-data">
         <div class="row">
             <div class="col-xs-12 text-right">
                 <div class="form-group">
@@ -30,7 +32,7 @@
 					</div>
 					<div class="form-group">
                         <label for="file_name">Image</label>
-						<input type="file" name="berkas" size="20" class=" mr-sm-2" />
+						<input type="file" name="file" size="20" class=" mr-sm-2" />
 					</div>
 					<div class="form-group">
 						<label for="body">Post Detail</label>

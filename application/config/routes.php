@@ -57,9 +57,12 @@ $route['404_override'] = 'error_404';
 /*********** USER DEFINED ROUTES *******************/
 
 $route['loginMe'] = 'login/loginMe';
-$route['dashboard'] = 'user';
+$route['loginAdmin'] = 'login';
+$route['dashboard'] = 'user/logout';
 $route['addFeed'] = 'post';
 $route['logout'] = 'user/logout';
+$route['participantListing'] = 'user/participantListing';
+$route['participantListing/(:num)'] = "user/participantListing/$1";
 $route['userListing'] = 'user/userListing';
 $route['userListing/(:num)'] = "user/userListing/$1";
 $route['addNew'] = "user/addNew";

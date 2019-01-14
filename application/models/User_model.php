@@ -31,6 +31,22 @@ class User_model extends CI_Model
         
         return $query->num_rows();
     }
+	
+	function participantListingCount($searchText = '')
+    {
+        $this->db->select('BaseTbl.id_oprec, BaseTbl.nama, BaseTbl.npm, BaseTbl.jurusan, BaseTbl.fakultas,BaseTbl.no_hp,BaseTbl.email, BaseTbl.motivasi','BaseTbl.pas_foto');
+        $this->db->from('oprec_t as BaseTbl');
+        if(!empty($searchText)) {
+            $likeCriteria = "(BaseTbl.email  LIKE '%".$searchText."%'
+                            OR  BaseTbl.nama  LIKE '%".$searchText."%'
+                            OR  BaseTbl.jurusan  LIKE '%".$searchText."%')";
+            $this->db->where($likeCriteria);
+        }
+        $this->db->where('BaseTbl.id_oprec!=', 0);
+        $query = $this->db->get();
+        
+        return $query->num_rows();
+    }
     
     /**
      * This function is used to get the user listing count
@@ -54,6 +70,26 @@ class User_model extends CI_Model
         $this->db->where('BaseTbl.roleId !=', 1);
         $this->db->order_by('BaseTbl.userId', 'DESC');
         $this->db->limit($page, $segment);
+        $query = $this->db->get();
+        
+        $result = $query->result();        
+        return $result;
+    }
+	
+	function participantListing($searchText = '', $page, $segment)
+    {
+        $this->db->select('BaseTbl.id_oprec, BaseTbl.nama, BaseTbl.npm, BaseTbl.jurusan, BaseTbl.fakultas,BaseTbl.no_hp,BaseTbl.email, BaseTbl.motivasi','BaseTbl.pas_foto');
+        $this->db->from('oprec_t as BaseTbl');
+        if(!empty($searchText)) {
+            $likeCriteria = "(BaseTbl.email  LIKE '%".$searchText."%'
+                            OR  BaseTbl.nama  LIKE '%".$searchText."%'
+                            OR  BaseTbl.jurusan  LIKE '%".$searchText."%')";
+            $this->db->where($likeCriteria);
+        }
+        $this->db->order_by('BaseTbl.id_oprec', 'DESC');
+        $this->db->limit($page, $segment);
+        
+        $this->db->where('BaseTbl.id_oprec!=', 0);
         $query = $this->db->get();
         
         $result = $query->result();        

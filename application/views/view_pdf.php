@@ -1,5 +1,5 @@
 <?php
-class PDF_JavaScript extends FPDF {
+class PDF_JavaScript extends Fpdf {
 
 	var $javascript;
 	var $n_js;

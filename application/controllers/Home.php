@@ -27,16 +27,16 @@ class Home extends CI_Controller {
 	public function courses(){
 		$this->load->view('main/courses');
 	}
-	public function courseDetails(){
-		$this->load->view('main/course-details');
+	public function post3(){
+		$this->load->view('main/mubes');
 	}
-	public function elements(){
-		$this->load->view('main/elements');
+	public function post2(){
+		$this->load->view('main/duca2019');
 	}
-	public function blog(){
-		$this->load->view('main/blog');
+	public function post1(){
+		$this->load->view('main/duca2018');
 	}
-	public function singleBlog(){
+	public function post(){
 		$this->load->view('main/single-blog');
 	}
 	public function contact(){

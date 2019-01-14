@@ -20,7 +20,7 @@
   <body class="login-page">
     <div class="login-box">
       <div class="login-logo">
-        <a href="#"><b>CodeInsect</b><br>Admin System</a>
+        <a href="#"><b>UKM Litfor</b><br>Admin System</a>
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Forgot Password</p>
@@ -82,7 +82,7 @@
             </div>
         <?php } ?>
         
-        <form action="<?php echo base_url(); ?>resetPasswordUser" method="post">
+        <form action="<?php echo base_url(); ?>index.php/resetPasswordUser" method="post">
           <div class="form-group has-feedback">
             <input type="email" class="form-control" placeholder="Email" name="login_email" required />
             <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
@@ -96,7 +96,7 @@
             </div><!-- /.col -->
           </div>
         </form>
-        <a href="<?php echo base_url() ?>">Login</a><br>
+        <a href="<?php echo base_url() ?>index.php/loginAdmin">Login</a><br>
       </div><!-- /.login-box-body -->
     </div><!-- /.login-box -->
 

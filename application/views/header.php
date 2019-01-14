@@ -29,7 +29,6 @@
   			z-index: 1;
 			height:100px;
 		}
-
 		/* Links inside the dropdown */
 			.dropdown-content a {
   				float: none;
@@ -43,12 +42,10 @@
 				 margin-top: -50px;
 				 margin-bottom: 50px;
 			}
-
 		/* Add a grey background color to dropdown links on hover */
 			.dropdown-content a:hover {
   				background-color: #ddd;
 			}	
-
 		/* Show the dropdown menu on hover */
 			.dropdown:hover .dropdown-content {
   				display: block;
@@ -111,24 +108,22 @@
 							<li class="nav-item"><a class="nav-link" href="<?php echo base_url(); ?>">Beranda</a></li>
 							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/about">Profil</a></li>
 							
-									<li class="nav-item dropdown">
-          								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Kegiatan
-       									<i class="fa fa-caret-down"></i>
-										<ul class="dropdown-content dropdown-menu">					
-											<li><a href="<?php echo site_url(); ?>home/courses">Timeline</a></li>
-            								<li><a href="<?php echo site_url(); ?>add_attendance">Get Ticket</a></li>											
+									<li class="nav-item submenu dropdown">
+          								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+										aria-haspopup="true" aria-expanded="false">Kegiatan
+       									<i class="fa fa-caret-down"></i></a>
+										<ul class="dropdown-menu">					
+											<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>path/timeline">Timeline</a></li>
+            								<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>add_attendance">Get Ticket</a></li>											
           								</ul>
         							</li>
 									
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/courseDetails">Kerjasama</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/elements">Penghargaan</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/blog">Oprec</a></li>
-							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>home/contact">Kontak</a></li>
-							<li class="nav-item">
-								<a href="#" class="nav-link search" id="search">
-									<i class="lnr lnr-magnifier"></i>
-								</a>
-							</li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>path/kerjasama">Kerjasama</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>path/penghargaan">Penghargaan</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>oprec">Oprec</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>path/arsip">Arsip</a></li>
+							<li class="nav-item"><a class="nav-link" href="<?php echo site_url(); ?>path/contact">Kontak</a></li>
+							
 						</ul>
 					</div>
 				</div>

@@ -36,7 +36,7 @@ class Login extends CI_Controller
         }
         else
         {
-            redirect('/dashboard');
+            redirect('dashboard');
         }
     }
     
@@ -82,7 +82,7 @@ class Login extends CI_Controller
 
                 $this->login_model->lastLogin($loginInfo);
                 
-                redirect('/dashboard');
+                redirect('upload');
             }
             else
             {
@@ -106,7 +106,7 @@ class Login extends CI_Controller
         }
         else
         {
-            redirect('/dashboard');
+            redirect('dashboard');
         }
     }
     
@@ -174,7 +174,7 @@ class Login extends CI_Controller
                 $status = 'invalid';
                 setFlashData($status, "This email is not registered with us.");
             }
-            redirect('/forgotPassword');
+            redirect('forgotPassword');
         }
     }
 
@@ -200,7 +200,7 @@ class Login extends CI_Controller
         }
         else
         {
-            redirect('/login');
+            redirect('login');
         }
     }
     
@@ -246,7 +246,7 @@ class Login extends CI_Controller
             
             setFlashData($status, $message);
 
-            redirect("/login");
+            redirect("login");
         }
     }
 }

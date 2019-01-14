@@ -82,10 +82,10 @@
                   <!-- Menu Footer-->
                   <li class="user-footer">
                     <div class="pull-left">
-                      <a href="<?php echo base_url(); ?>profile" class="btn btn-warning btn-flat"><i class="fa fa-user-circle"></i> Profile</a>
+                      <a href="<?php echo base_url(); ?>index.php/profile" class="btn btn-warning btn-flat"><i class="fa fa-user-circle"></i> Profile</a>
                     </div>
                     <div class="pull-right">
-                      <a href="<?php echo base_url(); ?>logout" class="btn btn-default btn-flat"><i class="fa fa-sign-out"></i> Sign out</a>
+                      <a href="<?php echo base_url(); ?>index.php/logout" class="btn btn-default btn-flat"><i class="fa fa-sign-out"></i> Sign out</a>
                     </div>
                   </li>
                 </ul>
@@ -123,13 +123,13 @@
             {
             ?>
             <li class="treeview">
-              <a href="#" >
+              <a href="<?php echo base_url(); ?>index.php/upload" >
                 <i class="fa fa-pencil-square-o"></i>
                 <span>Write a Feed</span>
               </a>
             </li>
             <li class="treeview">
-              <a href="<?php echo base_url(); ?>uploadFile" >
+              <a href="<?php echo base_url(); ?>index.php/uploadFile" >
                 <i class="fa fa-upload"></i>
                 <span>Upload a Document</span>
               </a>
@@ -140,20 +140,28 @@
             {
             ?>
             <li class="treeview">
-              <a href="<?php echo base_url(); ?>userListing">
+              <a href="<?php echo base_url(); ?>index.php/userListing">
                 <i class="fa fa-users"></i>
                 <span>Users</span>
               </a>
             </li>
+            
+            <?php
+            }
+            ?>
+			<?php
+            if($role == ROLE_ADMIN || $role == ROLE_MANAGER)
+            {
+            ?>
             <li class="treeview">
-              <a href="#" >
-                <i class="fa fa-files-o"></i>
-                <span>Reports</span>
+              <a href="<?php echo base_url(); ?>index.php/participantListing" >
+                <i class="fa fa-users"></i>
+                <span>List Participants</span>
               </a>
             </li>
             <?php
             }
-            ?>
+			?>
           </ul>
         </section>
         <!-- /.sidebar -->
