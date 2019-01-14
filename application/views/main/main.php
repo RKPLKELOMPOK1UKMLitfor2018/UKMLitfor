@@ -24,11 +24,11 @@ require_once __DIR__ .'/../header.php';
 	<!--================ End Home Banner Area =================-->
 
 	<!--================ Start Feature Area =================-->
-	
+
 	<!--================ End Feature Area =================-->
 
 	<!--================ Start Department Area =================-->
-	
+
 	<!--================ End Department Area =================-->
 
 	<!--================ Start Popular Courses Area =================-->
@@ -49,7 +49,7 @@ require_once __DIR__ .'/../header.php';
 								<div class="row align-items-center">
 									<div class="col-lg-6 col-md-5">
 										<div class="event_thumb">
-											<img src="<?php echo base_url(); ?>asset/img/event1.jpg" alt="">
+											<img src="<?php echo base_url(); ?>asset/img/ukm/12	.jpg" alt="">
 										</div>
 									</div>
 									<div class="col-lg-6 col-md-7">
@@ -74,7 +74,7 @@ require_once __DIR__ .'/../header.php';
 								<div class="row align-items-center">
 									<div class="col-lg-6 col-md-5">
 										<div class="event_thumb">
-											<img src="<?php echo base_url(); ?>asset/img/event2.jpg" alt="">
+											<img src="<?php echo base_url(); ?>asset/img/ukm/11.jpg" alt="">
 										</div>
 									</div>
 									<div class="col-lg-5 col-md-7">
@@ -90,7 +90,7 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 
 				<div class="col-lg-6">
@@ -116,7 +116,7 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="row">
@@ -141,9 +141,9 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
-				<nav class="blog-pagination justify-content-center d-flex ">
+				<!-- <nav class="blog-pagination justify-content-center d-flex ">
                         <ul class="pagination">
                             <li class="page-item">
                                 <a href="#" class="page-link" aria-label="Previous">
@@ -165,7 +165,7 @@ require_once __DIR__ .'/../header.php';
                                 </a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> -->
 			</div>
 		</div>
 	</div>
@@ -176,11 +176,11 @@ require_once __DIR__ .'/../header.php';
 	<!--================ End Fact Area =================-->
 
 	<!--================ Start Testimonial Area =================-->
-	
+
 	<!--================ End Testimonial Area =================-->
 
 	<!--================ Start Registration Area =================-->
-	
+
 	<!--================ End Registration Area =================-->
 
 	<!--================ Start Events Area =================-->
@@ -242,7 +242,7 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 
 				<div class="col-lg-6">
@@ -268,7 +268,7 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="row">
@@ -293,9 +293,9 @@ require_once __DIR__ .'/../header.php';
 								</div>
 							</div>
 						</div>
-					</div>		
+					</div>
 				</div>
-				<nav class="blog-pagination justify-content-center d-flex ">
+				<!-- <nav class="blog-pagination justify-content-center d-flex ">
                         <ul class="pagination">
                             <li class="page-item">
                                 <a href="#" class="page-link" aria-label="Previous">
@@ -317,7 +317,7 @@ require_once __DIR__ .'/../header.php';
                                 </a>
                             </li>
                         </ul>
-                    </nav>
+                    </nav> -->
 			</div>
 		</div>
 	</div>
