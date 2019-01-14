@@ -9,14 +9,7 @@ require_once __DIR__ .'/../header.php';
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <div class="banner_content text-center">
-                            <h2>About Us</h2>
-                            <p>In the history of modern astronomy, there is probably no one greater leap forward than
-                                the
-                                building and launch of the space telescope known as the Hubble.</p>
-                            <div class="page_link">
-                                <a href="index.html">Home</a>
-                                <a href="about-us.html">About</a>
-                            </div>
+                            <h2>Profil</h2>
                         </div>
                     </div>
                 </div>
@@ -30,22 +23,14 @@ require_once __DIR__ .'/../header.php';
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="img/about-img.png" alt="">
+                    <img class="img-fluid" src="<?php echo base_url(); ?>asset/img/about-img.png" alt="">
                 </div>
 
                 <div class="offset-lg-1 col-lg-5">
                     <div class="dpmt_right">
-                        <h1>Over 2500 Courses from 5 Platform</h1>
-                        <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first
-                            telescope. It’s
-                            exciting to think about setting up your own viewing station. In the life of any aspiring
-                            astronomer that it is
-                            time to buy that first telescope. It’s exciting to think about setting up your own viewing
-                            station.</p>
-                        <p>It’s exciting to think about setting up your own viewing station. In the life of any
-                            aspiring astronomer that
-                            it is time to buy that first telescope exciting is time to buy that first.</p>
-                        <a href="#" class="primary-btn text-uppercase">Explore Courses</a>
+                        <h1>SEJARAH</h1>
+                        <p>UKM LIterasi Informasi Unsyiah adalah UKM baru yang didirikan pada tahun 2017 dan disahkan pada tahun 2018 dengan maksud sebagai wadah pembinaan dan pengembangan literasi dan informasi di kalangan mahasiswa, khususnya mahasiswa Universitas Syiah Kuala. Hal ini dilandasi tanggung jawab, tugas dan kesadaran terhadap ilmu pengetahuan dan teknologi atas usaha membangun mahasiswa sebagai masyarakat yang berperan aktif dalam penelitian, pengaplikasian teknologi dan kepedulian sosial. Sebagai mahasiswa yang berjiwa nasionalis dan religius, memberikan pengabdian terbaik bagi bangsa, UKM ini didirikan.</p>
+                        <p>UKM Literasi Unsyiah berdiri didasari oleh inisiatif bapak Taufik Abdul Ghani selaku Kepala UPT. Perpustakaan Unsyiah yang merangkap sebagai pembina UKM ini. Perpustakaan unsyiah yang telah melibatkan mahasiswa aktif dalam melaksanakan kegiatan keperpustakaan. Kegiatan itu meliputi Relax and Easy, Volunteer, Librisyiana, Duta Baca, dan Shelfing crew. Untuk merangkul dan mewadahi kegiatan-kegiatan tersebut, beliau berinisiatif untuk membentuk suatu unit kegiatan mahasiswa yang berpusat pada keliterasian. Ide pembentukan ini memberi banyak harapan baru bagi seluruh masyarakat dalam lingkup unsyiah.</p>
                     </div>
                 </div>
             </div>
@@ -53,15 +38,32 @@ require_once __DIR__ .'/../header.php';
     </div>
     <!--================ End Department Area =================-->
 
+    <div class="department_area section_gap">
+        <div class="container">
+            <div class="row align-items-center">
+
+
+                <div class="offset-lg-1 col-lg-5">
+                    <div class="dpmt_right">
+                        <h1>VISI MISI</h1>
+                        <p>Visi dari UKM sendiri ialah sebagai wadah yang baik untuk mahasiswa yang telah berkecimpung dalam  perpustakaan unsyiah agar lebih terarah dan terorganisir,
+                        mewadahi mahasiswa yang memiliki bakat, minat, dan potensi baik dalam bidang literasi maupun  bidang informasi dan
+                      dapat menjadi salah satu sarana untuk menyebarluaskan segala informasi, khususnya literasi kepada masyarakat luas.</p>
+                        <p>Untuk menjalankan visi diatas, maka UKM memiliki misi yaitu menyelenggarakan berbagai kegiatan untuk menumbuhkan semangat berliterasi, menyelenggarakan kegiatan yang mengembalikan minat membaca dan menulis mahasiswa
+                        dan menyelenggarakan acara yang dapat menyalurkan dan mengembangkan minat dan bakat mahasiswa dibidang seni.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!--================ Start Instructor Area =================-->
     <div class="instructors_area lite_bg">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-6">
                     <div class="main_title">
-                        <h2>Our Instructors</h2>
-                        <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first
-                            telescope. It’s exciting to think about setting up your own viewing station.</p>
+                        <h2>STRUKTUR ORGANISASI</h2>
                     </div>
                 </div>
             </div>
@@ -73,15 +75,10 @@ require_once __DIR__ .'/../header.php';
                             <img src="img/instructors/ins1.jpg" alt="">
                         </div>
                         <div class="author_decs">
-                            <h4>Ethel Davis</h4>
-                            <p class="profession">Sr. Faculty Data Science</p>
-                            <p>If you are looking at blank cassettes on the web, you may be very confused at the
-                                difference in price.</p>
-                            <div class="social_icons">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h4>Elvira Nadya Saleh</h4>
+                            <p class="profession">Ketua</p>
+                            <p>Teknik Arsitektur</p>
+                            <p>Universitas Syiah Kuala</p>
                         </div>
                     </div>
                 </div>
@@ -92,15 +89,10 @@ require_once __DIR__ .'/../header.php';
                             <img src="img/instructors/ins2.jpg" alt="">
                         </div>
                         <div class="author_decs">
-                            <h4>Rodney Cooper</h4>
-                            <p class="profession">Sr. Faculty Data Science</p>
-                            <p>If you are looking at blank cassettes on the web, you may be very confused at the
-                                difference in price.</p>
-                            <div class="social_icons">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h4>Yulia Rahmawati</h4>
+                            <p class="profession">Wakil Ketua</p>
+                            <p>Pendidikan Kewarganegaraan</p>
+                            <p>Universitas Syiah Kuala</p>
                         </div>
                     </div>
                 </div>
@@ -111,15 +103,10 @@ require_once __DIR__ .'/../header.php';
                             <img src="img/instructors/ins3.jpg" alt="">
                         </div>
                         <div class="author_decs">
-                            <h4>Dane Walker</h4>
-                            <p class="profession">Sr. Faculty Data Science</p>
-                            <p>If you are looking at blank cassettes on the web, you may be very confused at the
-                                difference in price.</p>
-                            <div class="social_icons">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h4>Maulidya</h4>
+                            <p class="profession">Sekertaris</p>
+                            <p>Pendidikan Kewarganegaraan</p>
+                            <p>Universitas Syiah Kuala</p>
                         </div>
                     </div>
                 </div>
@@ -130,15 +117,66 @@ require_once __DIR__ .'/../header.php';
                             <img src="img/instructors/ins4.jpg" alt="">
                         </div>
                         <div class="author_decs">
-                            <h4>Lena Keller</h4>
-                            <p class="profession">Sr. Faculty Data Science</p>
-                            <p>If you are looking at blank cassettes on the web, you may be very confused at the
-                                difference in price.</p>
-                            <div class="social_icons">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
+                            <h4>Nanda Syafitri</h4>
+                            <p class="profession">Bendahara</p>
+                            <p>Informatika</p>
+                            <p>Universitas Syiah Kuala</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_instructor">
+                        <div class="author">
+                            <img src="img/instructors/ins4.jpg" alt="">
+                        </div>
+                        <div class="author_decs">
+                            <h4>Dinda Mizana</h4>
+                            <p class="profession">Sekertaris Departemen Literasi</p>
+                            <p>Pendidikan Bahasa Inggris</p>
+                            <p>Universitas Syiah Kuala</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_instructor">
+                        <div class="author">
+                            <img src="img/instructors/ins4.jpg" alt="">
+                        </div>
+                        <div class="author_decs">
+                            <h4>Nurlaila</h4>
+                            <p class="profession">Sekertaris Departemen Kesekretariatan</p>
+                            <p>Teknologi Hasil Pertanian</p>
+                            <p>Universitas Syiah Kuala</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_instructor">
+                        <div class="author">
+                            <img src="img/instructors/ins4.jpg" alt="">
+                        </div>
+                        <div class="author_decs">
+                            <h4>Ikramullah</h4>
+                            <p class="profession">Sekertaris Departemen Humas</p>
+                            <p>Ilmu Komunikasi</p>
+                            <p>Universitas Syiah Kuala</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single_instructor">
+                        <div class="author">
+                            <img src="img/instructors/ins4.jpg" alt="">
+                        </div>
+                        <div class="author_decs">
+                            <h4>Dian Islamiati</h4>
+                            <p class="profession">Sekertaris Departemen Seni</p>
+                            <p>Pendidikan Biologi</p>
+                            <p>Universitas Syiah Kuala</p>
                         </div>
                     </div>
                 </div>
@@ -148,308 +186,15 @@ require_once __DIR__ .'/../header.php';
     <!--================ End Instructor Area =================-->
 
     <!--================ Start Department Area =================-->
-    <div class="department_area section_gap">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6">
-                    <div class="dpmt_courses">
-                        <div class="row">
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt-100">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon1.png" alt="">
-                                    </div>
-                                    <h4>Languages</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon2.png" alt="">
-                                    </div>
-                                    <h4>Business</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt-100">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon3.png" alt="">
-                                    </div>
-                                    <h4>Literature</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon4.png" alt="">
-                                    </div>
-                                    <h4>Software</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center mt--100">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon5.png" alt="">
-                                    </div>
-                                    <h4>Design</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="col-lg-4 col-md-4 col-sm-6 col-12 text-center">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon6.png" alt="">
-                                    </div>
-                                    <h4>Development</h4>
-                                </div>
-                            </div>
-                            <!-- single course -->
-                            <div class="offset-lg-4 col-lg-4 col-md-4 col-sm-6 col-12 text-center mt--100">
-                                <div class="single_department">
-                                    <div class="dpmt_icon">
-                                        <img src="img/dpmt/icon7.png" alt="">
-                                    </div>
-                                    <h4>Development</h4>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="offset-lg-1 col-lg-5">
-                    <div class="dpmt_right">
-                        <h1>Over 2500 Courses from 5 Platform</h1>
-                        <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first
-                            telescope. It’s
-                            exciting to think about setting up your own viewing station. In the life of any aspiring
-                            astronomer that it is
-                            time to buy that first telescope. It’s exciting to think about setting up your own viewing
-                            station.</p>
-                        <p>It’s exciting to think about setting up your own viewing station. In the life of any
-                            aspiring astronomer that
-                            it is time to buy that first telescope exciting is time to buy that first.</p>
-                        <a href="#" class="primary-btn text-uppercase">Explore Courses</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--================ End Department Area =================-->
 
     <!--================ Start Fact Area =================-->
-    <div class="fact_area overlay">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6">
-                    <div class="main_title">
-                        <h2>Facts that Make us Unique</h2>
-                        <p>There is a moment in the life of any aspiring astronomer that it is time to buy that first
-                            telescope. It’s
-                            exciting to think about setting up your own viewing station.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon1.png" alt="">
-                        </div>
-                        <h4>Expert Mentors</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec tetur adipisicing elit, sed do eiusmod tempor sed do eiusmod tempor incididunt
-                            labore dolor sit amet
-                            consec tetur adipisicing elit, seddo eiusmod tempor.</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon2.png" alt="">
-                        </div>
-                        <h4>25000+ Courses</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipis icing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec.</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon3.png" alt="">
-                        </div>
-                        <h4>Student Membership</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec tetur adipisicing elit, sed do eiusmod tempor sed do eiusmod tempor incididunt
-                            labore dolor sit amet
-                            consec tetur adipisicing elit, seddo eiusmod tempor.</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon4.png" alt="">
-                        </div>
-                        <h4>Lifetime Access</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec tetur adipisicing elit sed do eiusmod.</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon5.png" alt="">
-                        </div>
-                        <h4>Source File Included</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec tetur adipisicing elit sed do eiusmod.</p>
-                    </div>
-                </div>
-                <!-- single features -->
-                <div class="col-lg-4 col-md-6">
-                    <div class="single_fact">
-                        <div class="f_icon">
-                            <img src="img/f-icons/icon6.png" alt="">
-                        </div>
-                        <h4>Live Support</h4>
-                        <p>Lorem ipsum dolor sit amet consec tetur adipis icing elit, sed do eiusmod tempor incididunt
-                            labore dolor sit
-                            amet consec.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <!--================ End Fact Area =================-->
 
     <!--================ Start Testimonial Area =================-->
-    <div class="section_gap testimonial_area">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-10 text-center">
-                    <div class="active_testimonial owl-carousel" data-slider-id="1">
-                        <!-- single testimonial -->
-                        <div class="single_testimonial">
-                            <div class="testimonial_head">
-                                <img src="img/quote.png" alt="">
-                                <h4>Fanny Spencer</h4>
-                                <div class="review">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial_content">
-                                <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother
-                                    Earth. If you think about
-                                    it, you travel across her faceand She is the host to your journey.</p>
-                            </div>
-                        </div>
 
-                        <div class="single_testimonial">
-                            <div class="testimonial_head">
-                                <img src="img/quote.png" alt="">
-                                <h4>Fanny Spencer</h4>
-                                <div class="review">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial_content">
-                                <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother
-                                    Earth. If you think about
-                                    it, you travel across her faceand She is the host to your journey.</p>
-                            </div>
-                        </div>
-
-                        <div class="single_testimonial">
-                            <div class="testimonial_head">
-                                <img src="img/quote.png" alt="">
-                                <h4>Fanny Spencer</h4>
-                                <div class="review">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial_content">
-                                <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother
-                                    Earth. If you think about
-                                    it, you travel across her faceand She is the host to your journey.</p>
-                            </div>
-                        </div>
-
-                        <div class="single_testimonial">
-                            <div class="testimonial_head">
-                                <img src="img/quote.png" alt="">
-                                <h4>Fanny Spencer</h4>
-                                <div class="review">
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                    <i class="fa fa-star"></i>
-                                </div>
-                            </div>
-                            <div class="testimonial_content">
-                                <p>As conscious traveling Paup ers we must always be oncerned about our dear Mother
-                                    Earth. If you think about
-                                    it, you travel across her faceand She is the host to your journey.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="owl-thumbs d-flex justify-content-center" data-slider-id="1">
-                        <div class="owl-thumb-item">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/testimonial/t1.jpg" alt="">
-                            </div>
-                            <div class="overlay-grad"></div>
-                        </div>
-                        <div class="owl-thumb-item">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/testimonial/t2.jpg" alt="">
-                            </div>
-                            <div class="overlay-grad"></div>
-                        </div>
-                        <div class="owl-thumb-item">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/testimonial/t3.jpg" alt="">
-                            </div>
-                            <div class="overlay-grad"></div>
-                        </div>
-                        <div class="owl-thumb-item">
-                            <div class="position-relative">
-                                <img class="img-fluid" src="img/testimonial/t4.jpg" alt="">
-                            </div>
-                            <div class="overlay-grad"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <!--================ End Testimonial Area =================-->
 <?php
 require_once __DIR__ .'/../footer.php';
