@@ -56,7 +56,7 @@ require_once __DIR__ .'/../header.php';
 										<div class="event_details">
 											<p>25 Februari, 2019</p>
 											<h4>
-												<a href="#">Kehebohan Acara Unsyiah Library Fiesta</a>
+												<a href="<?php echo site_url(); ?>home/post">Kehebohan Acara Unsyiah Library Fiesta</a>
 											</h4>
 											<p>Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do eiusmod tempor incididunt labore dolor
 												sit amet consec tetur adipisicing elit sed.</p>
