@@ -1,34 +1,34 @@
-<?php 
+<?php
 	require_once('header.php');
 ?>
 
 	<body>
 		<div class="container">
 		<br><br>
-		<div class="col-md-6 col-md-offset-3">
-			<center><h3>ADD ATTENDANCE</h3></center>
+		<div class="events_area">
+			<center><h3>Pesan Tiket</h3></center>
 			<hr>
-			<?php 
+			<?php
 			$this->load->helper('form');
 			echo form_open("add_attendance/add"); ?>
 				<div class="form-group">
-					<label for="name">Name</label>
-					<input type="text" class="form-control" id="name" name="name" placeholder="name">
+					<label for="name">Nama</label>
+					<input type="text" class="form-control" id="name" name="name" placeholder="Nama Lengkap">
 					<br>
-					<label for="afiliasi">Affiliation</label>
-					<input type="text" class="form-control" id="afiliasi" name="afiliasi" placeholder="affiliation">
+					<label for="afiliasi">Instansi</label>
+					<input type="text" class="form-control" id="afiliasi" name="afiliasi" placeholder="Nama Instansi">
 					<br>
 					<label for="email">Email</label>
-					<input type="text" class="form-control" id="email" name="email" placeholder="email">
+					<input type="text" class="form-control" id="email" name="email" placeholder="Email">
 				</div>
-				<input class="btn btn-primary pull-right" type="submit" value="Add">
-				<a href="<?php echo site_url('search/');?>" class="btn btn-success pull-left">I Have Filled The Form</a>
+				<input class="btn btn-primary pull-right" type="submit" value="Daftar">
+				<a href="<?php echo site_url('search/');?>" class="btn btn-success pull-left">Sudah Pernah Mendaftar</a>
 			<?php echo form_close(); ?>
 		</div>
-		
+
 		<br><br><br><br><br>
 		</div>
 	</body>
-<?php 
+<?php
 	require_once('footer.php');
 ?>
