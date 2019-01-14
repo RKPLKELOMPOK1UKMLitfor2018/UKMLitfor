@@ -29,7 +29,9 @@
 
     <div class="login-box">
       <div class="login-logo">
+        <img src="<?php echo base_url(); ?>asset/img/2.png" alt=""> <br>
         <a href="#"><b>Sistem Admin</b><br>UKM Literasi Informasi Unsyiah</a>
+
       </div><!-- /.login-logo -->
       <div class="login-box-body">
         <p class="login-box-msg">Sign In</p>
