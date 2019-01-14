@@ -33,8 +33,8 @@ class Home extends CI_Controller {
 	public function penghargaan(){
 		$this->load->view('main/penghargaan');
 	}
-	public function blog(){
-		$this->load->view('main/blog');
+	public function post(){
+		$this->load->view('main/single-blog');
 	}
 	public function arsip(){
 		$this->load->view('main/arsip');
